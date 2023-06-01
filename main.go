@@ -17,6 +17,7 @@ type Post struct {
 	Body  string `json:"body"`
 }
 
+//commiting to main
 func main() {
 	// Configuração do cliente MongoDB
 	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
